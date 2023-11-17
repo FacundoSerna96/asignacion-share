@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(fileUpload());
 
 
-app.post("/upload/:id", (req, res) => {
+app.post("/asignarTarea/:id", (req, res) => {
   let EDFile = req.files.file;
   let nuevoAsignado = req.params.id
 
