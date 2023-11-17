@@ -20,3 +20,7 @@ npm start
 # Uso
 
 Se hace una consulta en base de datos para obtener la lista de tareas, luego se realiza el reporte exportandolo en formato csv. En el postman se agrega el id del usuario en la ruta de la peticion y luego se agrega el archivo en body.
+
+# Notas
+
+En las variables de entorno (.env) se puede cambiar la direccion de la api, ahora esta apuntando a test.
