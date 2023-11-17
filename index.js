@@ -32,7 +32,7 @@ app.post("/asignarTarea/:id", (req, res) => {
       .then(function (jsonArrayObj) {
         //when parse finished, result will be emitted here.
         jsonArrayObj.forEach((e) => {
-          ListaIDs.push(e.id);
+          ListaIDs.push(e.ID_);
         });
         console.log("lista de ids: ", ListaIDs);
         cambiarAsignados(ListaIDs, nuevoAsignado);
